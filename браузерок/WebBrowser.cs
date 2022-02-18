@@ -44,10 +44,9 @@ namespace браузерок
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            //Загрузка файла TXT в таблицу в русской кодировке
-            string path = "прога.txt";
+            string path = @"C:\Users\talda\source\repos\classwork180222\браузерок\bin\Debug\прога.txt";
             string[] str;
-            нижняятабл.ColumnCount = 3;// Колонки и строки
+            нижняятабл.ColumnCount = 3;
             нижняятабл.RowCount = 3;
             using (System.IO.StreamReader read = new System.IO.StreamReader(path, System.Text.Encoding.Default))
             {

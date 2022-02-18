@@ -30,17 +30,17 @@ namespace браузерок
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("09-121");
-            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Тальдаева");
-            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Конышева");
-            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Захарова");
-            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("09-122", new System.Windows.Forms.TreeNode[] {
-            treeNode2,
-            treeNode3,
-            treeNode4});
-            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("группы", new System.Windows.Forms.TreeNode[] {
-            treeNode1,
-            treeNode5});
+            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("09-121");
+            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Тальдаева");
+            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("Конышева");
+            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("Захарова");
+            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("09-122", new System.Windows.Forms.TreeNode[] {
+            treeNode8,
+            treeNode9,
+            treeNode10});
+            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("группы", new System.Windows.Forms.TreeNode[] {
+            treeNode7,
+            treeNode11});
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.contextMenuStrip2 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
@@ -57,9 +57,9 @@ namespace браузерок
             this.напёрдыш = new System.Windows.Forms.PictureBox();
             this.нижняятабл = new System.Windows.Forms.DataGridView();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.имя = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.возраст = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.описание = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.age = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.description = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.нижнийслой)).BeginInit();
             this.нижнийслой.Panel1.SuspendLayout();
@@ -196,26 +196,26 @@ namespace браузерок
             // 
             this.дерево1шаг.Location = new System.Drawing.Point(19, 28);
             this.дерево1шаг.Name = "дерево1шаг";
-            treeNode1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            treeNode1.Name = "09-121";
-            treeNode1.Text = "09-121";
-            treeNode2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            treeNode2.Name = "Тальдаева";
-            treeNode2.Text = "Тальдаева";
-            treeNode3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            treeNode3.Name = "Конышева";
-            treeNode3.Text = "Конышева";
-            treeNode4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            treeNode4.Name = "Захарова";
-            treeNode4.Text = "Захарова";
-            treeNode5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            treeNode5.Name = "09-122";
-            treeNode5.Text = "09-122";
-            treeNode6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            treeNode6.Name = "группы";
-            treeNode6.Text = "группы";
+            treeNode7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            treeNode7.Name = "09-121";
+            treeNode7.Text = "09-121";
+            treeNode8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            treeNode8.Name = "Тальдаева";
+            treeNode8.Text = "Тальдаева";
+            treeNode9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            treeNode9.Name = "Конышева";
+            treeNode9.Text = "Конышева";
+            treeNode10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            treeNode10.Name = "Захарова";
+            treeNode10.Text = "Захарова";
+            treeNode11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            treeNode11.Name = "09-122";
+            treeNode11.Text = "09-122";
+            treeNode12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            treeNode12.Name = "группы";
+            treeNode12.Text = "группы";
             this.дерево1шаг.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode6});
+            treeNode12});
             this.дерево1шаг.Size = new System.Drawing.Size(219, 129);
             this.дерево1шаг.TabIndex = 0;
             // 
@@ -238,35 +238,36 @@ namespace браузерок
             this.нижняятабл.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleVertical;
             this.нижняятабл.ColumnHeadersHeight = 29;
             this.нижняятабл.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.имя,
-            this.возраст,
-            this.описание});
-            this.нижняятабл.Location = new System.Drawing.Point(19, 2);
+            this.name,
+            this.age,
+            this.description});
+            this.нижняятабл.Location = new System.Drawing.Point(19, 3);
             this.нижняятабл.Name = "нижняятабл";
             this.нижняятабл.RowHeadersWidth = 51;
             this.нижняятабл.RowTemplate.Height = 24;
             this.нижняятабл.Size = new System.Drawing.Size(757, 150);
             this.нижняятабл.TabIndex = 0;
+        
             // 
-            // имя
+            // name
             // 
-            this.имя.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.имя.HeaderText = "имя";
-            this.имя.MinimumWidth = 6;
-            this.имя.Name = "имя";
-            this.имя.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.name.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.name.HeaderText = "name";
+            this.name.MinimumWidth = 6;
+            this.name.Name = "name";
+            this.name.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             // 
-            // возраст
+            // age
             // 
-            this.возраст.HeaderText = "возраст";
-            this.возраст.MinimumWidth = 6;
-            this.возраст.Name = "возраст";
+            this.age.HeaderText = "age";
+            this.age.MinimumWidth = 6;
+            this.age.Name = "age";
             // 
-            // описание
+            // description
             // 
-            this.описание.HeaderText = "описание";
-            this.описание.MinimumWidth = 6;
-            this.описание.Name = "описание";
+            this.description.HeaderText = "description";
+            this.description.MinimumWidth = 6;
+            this.description.Name = "description";
             // 
             // WebBrowser
             // 
@@ -317,9 +318,9 @@ namespace браузерок
         private System.Windows.Forms.TreeView дерево1шаг;
         private System.Windows.Forms.DataGridView нижняятабл;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn имя;
-        private System.Windows.Forms.DataGridViewTextBoxColumn возраст;
-        private System.Windows.Forms.DataGridViewTextBoxColumn описание;
+        private System.Windows.Forms.DataGridViewTextBoxColumn name;
+        private System.Windows.Forms.DataGridViewTextBoxColumn age;
+        private System.Windows.Forms.DataGridViewTextBoxColumn description;
     }
 }
 
